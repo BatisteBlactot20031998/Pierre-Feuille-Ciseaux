@@ -8,3 +8,7 @@ var choice = [
     "feuille",
     "ciseaux"
 ];
+
+var computerPlayerChoice = Math.floor(Math.random() * choice.length);
+computerPlayerChoice = choice[computerPlayerChoice];
+    alert("L'ordinateur a choisi " + computerPlayerChoice);
