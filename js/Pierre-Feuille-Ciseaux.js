@@ -12,3 +12,25 @@ var choice = [
 var computerPlayerChoice = Math.floor(Math.random() * choice.length);
 computerPlayerChoice = choice[computerPlayerChoice];
     alert("L'ordinateur a choisi " + computerPlayerChoice);
+
+    if(userPlayerChoice === "pierre" && computerPlayerChoice === "ciseaux"){
+        alert("You won!");
+    }
+    else if(userPlayerChoice === "pierre" && computerPlayerChoice === "pierre") {
+        alert("Draw!");
+    }
+    else if(userPlayerChoice === "feuille" && computerPlayerChoice === "pierre") {
+        alert("You won");
+    }
+    else if(userPlayerChoice === "ciseaux" && computerPlayerChoice === "feuille") {
+        alert("You won");
+    }
+    else if(userPlayerChoice === "feuille" && computerPlayerChoice === "feuille") {
+        alert("Draw");
+    }
+    else if(userPlayerChoice === "ciseaux" && computerPlayerChoice === "ciseaux") {
+        alert("Draw");
+    }
+    else {
+        alert("You lose!");
+    }
