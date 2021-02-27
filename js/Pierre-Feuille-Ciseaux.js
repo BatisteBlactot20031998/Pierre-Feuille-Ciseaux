@@ -34,3 +34,5 @@ computerPlayerChoice = choice[computerPlayerChoice];
     else {
         alert("You lose!");
     }
+
+    alert("End of the game");
