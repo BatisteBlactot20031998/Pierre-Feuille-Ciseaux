@@ -26,3 +26,7 @@ Les consignes générales qui m'ont été données sont:
 Ce projet a été codé dans une base boilerplate qui respecte les standards de l'industrie, le jeu est accesible via un fichier index.html et le projet est hébergé sur un gh-page.
 ######
 Un résumé des notions vu sur le langage javascript est disponible dans le dossier CoursJavascript.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4af18c5462f49dadacbd14d66279adba48fd3ee4
